@@ -37,3 +37,5 @@ spconv-cu124==2.3.8
 
 gradio==4.44.1
 gradio_litmodel3d==0.0.1
+
+open3d

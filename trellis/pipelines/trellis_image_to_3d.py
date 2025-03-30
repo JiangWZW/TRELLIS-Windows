@@ -7,9 +7,9 @@ import numpy as np
 from torchvision import transforms
 from PIL import Image
 import rembg
-from .base import Pipeline
-from . import samplers
-from ..modules import sparse as sp
+from trellis.pipelines.base import Pipeline
+from trellis.pipelines import samplers
+from trellis.modules import sparse as sp
 
 
 class TrellisImageTo3DPipeline(Pipeline):
